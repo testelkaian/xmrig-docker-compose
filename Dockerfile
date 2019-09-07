@@ -17,4 +17,4 @@ cd build && \
 cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7 && \
 make
 
-CMD ["/usr/src/xmrig/build/xmrig", "--algo=cn/r", "--max-cpu-usage=100", "--cpu-priority=5", "-o", "pool.minexmr.com:4444", "-u", "47awNeyfVMgBxARBh19jSFCPTDxuFbVdyD9evJgr69b1TCVAcXEAzvNdjjPZ8ErEegBWysdoducfvH7W5DUEBbMBQuCXnQT"]
+CMD ["/usr/src/xmrig/build/xmrig", "--algo=cn/r", "--api-port","8080", "--max-cpu-usage=100", "--cpu-priority=5", "-o", "pool.minexmr.com:4444", "-u", "47awNeyfVMgBxARBh19jSFCPTDxuFbVdyD9evJgr69b1TCVAcXEAzvNdjjPZ8ErEegBWysdoducfvH7W5DUEBbMBQuCXnQT" ]
